@@ -3,7 +3,7 @@
 {
     'name': 'Camptocamp Website',
     'description': "Camptocamp improvements for Website.",
-    'version': '11.0.1.0.0',
+    'version': '10.0.1.0.0',
     'author': 'Camptocamp',
     'license': 'AGPL-3',
     'category': 'Others',
