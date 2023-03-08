@@ -6,11 +6,9 @@
     "author": "Camptocamp",
     "license": "AGPL-3",
     "category": "Others",
-    "depends": [
-        "base",
-    ],
+    "depends": ["base"],
     "external_dependencies": {},
-    "website": "http://www.camptocamp.com",
+    "website": "https://www.camptocamp.com",
     "data": [],
     "installable": True,
     "auto_install": True,
