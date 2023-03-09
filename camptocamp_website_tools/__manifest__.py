@@ -2,7 +2,6 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     'name': 'Camptocamp Website',
-    'description': "Camptocamp improvements for Website.",
     'version': '12.0.1.0.0',
     'author': 'Camptocamp',
     'license': 'AGPL-3',
@@ -11,7 +10,7 @@
         'base',
         'website',
     ],
-    'website': 'http://www.camptocamp.com',
+    'website': 'https://www.camptocamp.com',
     'data': [],
     'installable': True,
     'auto_install': True,
