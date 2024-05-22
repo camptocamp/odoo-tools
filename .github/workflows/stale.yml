@@ -27,7 +27,7 @@ jobs:
             it has been marked as stale and it will be closed automatically if no
             further activity occurs in the next 30 days.
 
-            If you want this PR to never become stale, please ask a PSC member to apply
+            If you want this PR to never become stale, please ask a PSC member to apply  
             the "no stale" label.
           # Issues settings.
           # 180+30 day stale policy for open issues
