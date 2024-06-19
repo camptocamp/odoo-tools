@@ -21,4 +21,3 @@ repo_slug: odoo-tools
 repo_website: https://www.camptocamp.com
 travis_apt_packages: []
 travis_apt_sources: []
-
