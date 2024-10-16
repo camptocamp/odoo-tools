@@ -14,7 +14,7 @@
     "external_dependencies": {
         "python": ["psycopg2"],
     },
-    "website": "https://www.camptocamp.com",
+    "website": "https://github.com/camptocamp/odoo-tools",
     "data": [
         "templates/camptocamp_version_template.xml",
         "views/camptocamp_version.xml",
