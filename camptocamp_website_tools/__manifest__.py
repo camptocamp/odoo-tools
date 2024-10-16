@@ -11,7 +11,7 @@
         "base",
         "website",
     ],
-    "website": "https://www.camptocamp.com",
+    "website": "https://github.com/camptocamp/odoo-tools",
     "data": [],
     "installable": True,
     "auto_install": True,
