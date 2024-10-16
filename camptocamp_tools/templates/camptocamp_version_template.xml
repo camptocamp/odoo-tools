@@ -37,15 +37,19 @@
                             t-att-style="'background-color:mediumseagreen;' if v_first else None"
                         >
                             <div class="col-md-6">
-                                <p><strong>Version:</strong> <span
-                                        t-esc="v.get('number')"
-                                    /></p>
+                                <p>
+                                    <strong>Version:</strong>
+                                    <span t-esc="v.get('number')" />
+                                </p>
                             </div>
                             <div class="col-md-6">
-                                <p><strong>Deployed:</strong> <span
+                                <p>
+                                    <strong>Deployed:</strong>
+                                    <span
                                         t-esc="v.get('date_done')"
                                         t-options='{"widget": "date", "format": "YYYY-MM-dd"}'
-                                    /></p>
+                                    />
+                                </p>
                             </div>
                         </div>
                     </t>
