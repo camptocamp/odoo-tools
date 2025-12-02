@@ -1,9 +1,9 @@
-# Copyright 2022 Camptocamp SA
+# Copyright 2022 Camptocamp
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {  # noqa: B018
     "name": "Camptocamp Migration tools",
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "author": "Camptocamp",
     "license": "AGPL-3",
     "category": "Others",
