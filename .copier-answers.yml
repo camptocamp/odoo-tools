@@ -24,4 +24,3 @@ repo_slug: odoo-tools
 repo_website: https://github.com/camptocamp/odoo-tools
 use_pyproject_toml: true
 use_ruff: true
-
