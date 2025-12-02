@@ -1,8 +1,8 @@
 
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/camptocamp/odoo-tools/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/camptocamp/odoo-tools/actions/workflows/pre-commit.yml?query=branch%3A18.0)
-[![Build Status](https://github.com/camptocamp/odoo-tools/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/camptocamp/odoo-tools/actions/workflows/test.yml?query=branch%3A18.0)
-[![codecov](https://codecov.io/gh/camptocamp/odoo-tools/branch/18.0/graph/badge.svg)](https://codecov.io/gh/camptocamp/odoo-tools)
+[![Pre-commit Status](https://github.com/camptocamp/odoo-tools/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/camptocamp/odoo-tools/actions/workflows/pre-commit.yml?query=branch%3A19.0)
+[![Build Status](https://github.com/camptocamp/odoo-tools/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/camptocamp/odoo-tools/actions/workflows/test.yml?query=branch%3A19.0)
+[![codecov](https://codecov.io/gh/camptocamp/odoo-tools/branch/19.0/graph/badge.svg)](https://codecov.io/gh/camptocamp/odoo-tools)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
 <!-- /!\ do not modify above this line -->
