@@ -43,12 +43,12 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * Camptocamp
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is part of the `camptocamp/odoo-tools <https://github.com/camptocamp/odoo-tools/tree/18.0/camptocamp_website_tools>`_ project on GitHub.
 
