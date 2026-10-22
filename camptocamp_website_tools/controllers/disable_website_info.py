@@ -9,5 +9,5 @@ from odoo.addons.website.controllers.main import Website
 
 class DisableWebsiteInfoController(Website):
     @http.route(auth="user")
-    def website_info(self):
+    def website_info(self, **kwargs):
         return request.not_found()
