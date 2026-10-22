@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <!--This is a simplified copy of web.login_layout because we want to make
     this reliable cross-version as there are too many modules overriding base
@@ -21,7 +21,7 @@
                             t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"
                         />
                     </div>
-                    <t t-raw="0" />
+                    <t t-out="0" />
                 </div>
             </div>
         </t>
@@ -39,14 +39,14 @@
                             <div class="col-md-6">
                                 <p>
                                     <strong>Version:</strong>
-                                    <span t-esc="v.get('number')" />
+                                    <span t-out="v.get('number')" />
                                 </p>
                             </div>
                             <div class="col-md-6">
                                 <p>
                                     <strong>Deployed:</strong>
                                     <span
-                                        t-esc="v.get('date_done')"
+                                        t-out="v.get('date_done')"
                                         t-options='{"widget": "date", "format": "YYYY-MM-dd"}'
                                     />
                                 </p>

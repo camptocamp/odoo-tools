@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <record id="action_camptocamp_versions" model="ir.actions.act_url">
         <field name="name">Camptocamp Versions</field>
