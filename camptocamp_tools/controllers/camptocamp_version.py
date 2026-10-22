@@ -1,7 +1,7 @@
 #  Copyright 2018 Camptocamp SA
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import _, http
+from odoo import http
 from odoo.exceptions import UserError
 from odoo.http import request
 
@@ -16,7 +16,9 @@ class CamptocampVersionController(http.Controller):
     def camptocamp_versions(self, *args, **kwargs):
         if not request.env.user.has_group("base.group_no_one"):
             raise UserError(
-                _("Only users with Technical Features activated are allowed.")
+                request.env._(
+                    "Only users with Technical Features activated are allowed."
+                )
             )
         sql = """SELECT number, date_done
                  FROM marabunta_version

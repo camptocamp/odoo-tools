@@ -17,14 +17,13 @@ class Partner(models.Model):
 
     # Fields which should have been declared index="trigram"
     # These are the "_rec_names_search" fields + "name":
-    # _rec_names_search = ['complete_name', 'email', 'ref', 'vat', 'company_registry']
+    # _rec_names_search = ('complete_name', 'email', 'ref', 'vat')
 
     name = fields.Char(index="trigram")
     complete_name = fields.Char(index="trigram")
     email = fields.Char(index="trigram")
     ref = fields.Char(index="trigram")
     vat = fields.Char(index="trigram")
-    company_registry = fields.Char(index="trigram")
 
     def init(self):
         # pylint: disable=missing-return
@@ -32,7 +31,7 @@ class Partner(models.Model):
         if self.pool.has_trigram:
             tgm_indexes = tuple(
                 make_index_name(self._table, col)
-                for col in ["name"] + self._rec_names_search
+                for col in ["name", *self._rec_names_search]
             )
             self.env.cr.execute(QUERY_NOT_TRIGRAM, [tgm_indexes])
             for [index_name] in self.env.cr.fetchall():
